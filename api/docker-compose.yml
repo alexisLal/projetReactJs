@@ -10,6 +10,7 @@ services:
       POSTGRES_DB: travel
   adminer:
     image: adminer
+    container_name: adminer_travel
     ports:
       - 8080:8080
     environment:

@@ -7,7 +7,7 @@ const pool = new Pool({
     password: 'postgres',
     host: 'localhost',
     port: 5432,
-    database: 'database',
+    database: 'travel',
 });
 
 export default pool;
